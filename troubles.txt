@@ -1,0 +1,7 @@
+I had //Error: Cannot find module 'process-nextick-args'//
+
+@ nvm install 6.11.3
+
++@koruzo (gitter) "..different versions of node/nvm as how-to-npm doens't support last version of node/npm"
+
+account on npmjs.com

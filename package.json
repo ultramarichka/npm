@@ -1,0 +1,19 @@
+{
+  "name": "@ultramarichka/package.json",
+  "version": "1.0.0",
+  "description": "create package json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ultramarichka",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultramarichka/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ultramarichka/npm/issues"
+  },
+  "homepage": "https://github.com/ultramarichka/npm#readme"
+}
