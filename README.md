@@ -94,3 +94,27 @@
        
        npm dist-tag add pkg@1.0.1 beta  
        
+12. REMOVE DIST-TAG 
+    The only dist-tag you CAN'T ever remove is "latest".  That's because  
+     every package installs its "latest" tag by default, so that tag has  
+     some special semantics.  
+       
+     You CAN point "latest" to a different version, or delete other tags.  
+       
+     Let's delete all the tags that we can, and also point "latest" at  
+     something other than the most recent release.  
+       
+     Run `npm help dist-tag` to learn more about the command.
+
+14. UPDATE all of your deps to the max version you allow in your package.json.  
+     (`npm help` might help you) 
+
+15. DELETE dependencies
+    Enter the `npm rm` command (aka `npm uninstall` if you prefer to  
+     type things out long-hand).  
+       
+     Remove all the deps!  But, make sure that you don't keep depending on them.  
+       
+     Just like you can use `--save` on installing packages, you can also  
+     use `--save` when removing packages, to also remove them from your  
+     package.json file.  
